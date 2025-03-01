@@ -6,7 +6,7 @@ $$y(x)=A⋅e^{−kx}⋅cos(ωx+ϕ)$$
 
 ```
 import numpy as np
-from mcmc_param_est import MCMCParameterEstimator as mcmc
+from mcmc_estimator import MCMCParameterEstimator as mcmc
 
 np.random.seed(42)
 
