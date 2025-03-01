@@ -51,11 +51,11 @@ Param 3: mean=0.443, std=0.060, 95% CI=(0.323, 0.560)
 estimator.plot_diagnostics()
 ```
 
-![vizmath](assets/est_3_trace.png)
+![mcmc-estimator](https://github.com/nickgerend/mcmc-estimator/raw/main/assets/est_3_trace.png)
 ```
 estimator.plot_fit()
 ```
-![vizmath](assets/est_3_fit.png)
+![mcmc-estimator](https://github.com/nickgerend/mcmc-estimator/raw/main/assets/est_3_fit.png)
 ```
 # Access the parameter samples and calculate the means
 samples = estimator.get_samples()

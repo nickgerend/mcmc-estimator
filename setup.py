@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mcmc-estimator",
-    version="0.0.1",
+    version="0.0.2",
     description="Estimates a function's parameters using Metropolis-Hastings to fit data.",
     long_description=(Path(__file__).parent / "README.md").read_text(),
     long_description_content_type="text/markdown",
